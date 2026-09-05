@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-09-05",
+  "note": "团队更新融资信息只改这个文件，改完重新部署即全网生效",
+  "round": {
+    "stage": "第一轮（天使/种子）",
+    "target_amount_usd": "8M-10M",
+    "status": "进行中",
+    "use_of_funds": [
+      { "item": "工厂建设（乔治亚州 CNC + 半自动组装线）", "amount_usd": "2M" },
+      { "item": "12 个月人员工资与日常运营", "amount_usd": "3M" },
+      { "item": "研发物料采购、产品迭代升级与量产", "amount_usd": "3M" },
+      { "item": "安全资金", "amount_usd": "2M" }
+    ]
+  },
+  "equity_structure": {
+    "top": "母公司（融资主体）",
+    "subsidiaries": [
+      { "entity": "乔治亚州制造公司", "role": "生产制造" },
+      { "entity": "新加坡子公司", "role": "全球业务" },
+      { "entity": "香港公司", "role": "大陆业务" }
+    ],
+    "domestic_chain": "香港公司 → 控制深圳有限合伙 → 与麦捷科技、峰岹科技共同合资成立深圳电机公司 → 向母公司供应电机"
+  },
+  "milestones": [
+    { "time": "2026 Q4", "goal": "完成 RIG 基础设施全套量产" },
+    { "time": "M03", "goal": "美国实体注册启动；与清华、Stanford、MIT、Harvard、上海交大、HKUST 及 NVIDIA、OpenAI 等行业领先者达成初步合作意向" },
+    { "time": "M06", "goal": "首批 100+ 套 RIG 客户交付；全系列产品量产化美国本土部署；完成 Pre-A 轮 4,000 万美元融资" },
+    { "time": "M09", "goal": "美国工厂部分产品开模与半自动装配，核心部件逐步本土制造供应" },
+    { "time": "M12", "goal": "完成全套 RIG 服务供应流程，硬件到软件的数据工厂全面建成" },
+    { "time": "M15", "goal": "预计出货 2,000 套灵巧手/三指手及多套机械臂" },
+    { "time": "M18 / 2027", "goal": "A 轮过亿美元融资；全面拓展美国市场，成为 RIG 硬件供应链第一；5–10 个 KA 客户，营收 1,000 万美元" },
+    { "time": "2028", "goal": "全面品牌化，市场占有率第一，营收至少 5,000 万美元" }
+  ],
+  "business_highlights": {
+    "market": "全球高质量具身数据约 50 万小时存量 vs 年需求超 1,000 万小时，缺口 >99%（Nomura 口径）",
+    "data_pricing": "真机遥操作数据 ¥500–1,000/小时（中国）、$90–150/小时（美国）；故障恢复数据 ¥1,000+/小时",
+    "customers_target": "NVIDIA、OpenAI、Amazon、Meta 等北美 AI 大厂数据训练团队",
+    "georgia_factory": "95%+ 美国本土制造，仅进口铜线线圈/定子/部分电子元器件，成本远低于 65% 本土组件门槛（FCC DA26-786 豁免）",
+    "cost_moat": "自有 CNC 产能，BOM 压至外协约 60%；M01 Neo ¥1,896 vs Maxon 同级 ¥6,000+"
+  },
+  "contact": {
+    "email": "jysong47@gmail.com",
+    "bp_online": "https://flat-hill.github.io/flathill/"
+  }
+}
